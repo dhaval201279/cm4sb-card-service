@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cm4sb-creditCard-service
+    name: cm4sb-card-service
 
   jackson:
     property-naming-strategy: com.fasterxml.jackson.databind.PropertyNamingStrategy.PascalCaseStrategy

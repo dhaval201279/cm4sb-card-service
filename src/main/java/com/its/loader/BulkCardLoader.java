@@ -38,7 +38,7 @@ public class BulkCardLoader {
 
         ClassLoader classLoader = getClass().getClassLoader();
         try (Reader in = new InputStreamReader(
-                Objects.requireNonNull(classLoader.getResource("new-bulk-card-data.json")).openStream(), "UTF-8")) {
+                Objects.requireNonNull(classLoader.getResource("cc-new-bulk-card-data.json")).openStream(), "UTF-8")) {
                 List<CardMetaData> records = objectMapper.readValue(in, new TypeReference<List<CardMetaData>>() {
             });
 

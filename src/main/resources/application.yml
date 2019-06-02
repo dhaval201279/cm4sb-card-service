@@ -3,7 +3,8 @@ spring:
     name: cm4sb-card-service
 
   jackson:
-    property-naming-strategy: com.fasterxml.jackson.databind.PropertyNamingStrategy.PascalCaseStrategy
+    #property-naming-strategy: com.fasterxml.jackson.databind.PropertyNamingStrategy.PascalCaseStrategy
+    property-naming-strategy: com.fasterxml.jackson.databind.PropertyNamingStrategy
     default-property-inclusion: non_null
     deserialization:
       fail-on-unknown-properties: false

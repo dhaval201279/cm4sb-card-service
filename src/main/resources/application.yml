@@ -21,6 +21,17 @@ management:
     distribution:
       percentiles:
         http.server.requests: 0.5, 0.9, 0.95, 0.99
+      sla:
+        http.server.requests: 50ms
+    binders:
+      jvm:
+        enabled: true
+      logback:
+        enabled: true
+      processor:
+        enabled: true
+      uptime:
+        enabled: true
 
   endpoint:
     chaosmonkey:

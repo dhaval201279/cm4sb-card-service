@@ -8,9 +8,9 @@
 Comprises of business flow which allows consumer of this application to view card based on Id or fetch all the cards
 
 Method	| Path	| Description
-------------- | ------------------------- | ------------- :
+------------- | ------------------------- | ------------- |
 GET	| /card/{cardId}	| Gets Card based on card identifier	
-GET	| /cards	| Fetches all the cards stored in database
+GET	| /cards	| Fetches all cards stored in database
 
 ## How to enable monitoring of demo application
 

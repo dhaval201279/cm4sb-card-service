@@ -33,7 +33,7 @@ GET	| /cards	| Fetches all cards stored in database
     > .\grafana-server.exe agent -dev -node machine
 3. Check whether Grafana is up and running by accessing URL (http://localhost:7070) in browser
 
-## How to do load testing using [Apache Bench](https://httpd.apache.org/docs/2.4/programs/ab.html)
+## Running load tests using [Apache Bench](https://httpd.apache.org/docs/2.4/programs/ab.html)
 1. Go to Apache Bench's bin directory e.g. C:\Apache24\bin
 2. Run below command in powershell to invoke Fetch Cards API 250 times with 4 concurrent threads
     > .\ab.exe -n 250 -c 4 http://localhost:8090/cards          
